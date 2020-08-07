@@ -23,8 +23,8 @@ def has_negatives(a):
                 # Else append the absolute value to our negative array
                 negative.append(abs(i))
         else:
-            # If it doesn't exist in cache asign the cache of i to 1
-            cache[i] = 1
+            # If it doesn't exist in cache asign the cache of i to i
+            cache[i] = i
 
     # Loop through our positive array
     for i in positive:
